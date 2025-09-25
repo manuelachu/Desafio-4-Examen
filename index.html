@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Gass</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <h1>Full Gass<span class="mdi mdi-car"></span></h1>
+        </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#">Oferta</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="menu-mobile-icon">
+            <span class="mdi mdi-menu"></span>
+        </div>
+    </header>
+    
+    <aside class="sidebar">
+        <div class="logo-desktop">
+            <h1>Full Gass<span class="mdi mdi-car"></span></h1>
+        </div>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#">Oferta</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <footer class="footer-desktop">
+            <div class="social-icons">
+                <a href="#"><span class="mdi mdi-facebook"></span></a>
+                <a href="#"><span class="mdi mdi-twitter"></span></a>
+                <a href="#"><span class="mdi mdi-instagram"></span></a>
+            </div>
+            <p>&copy; 2025 - Full Gass. Todos los derechos reservados.</p>
+        </footer>
+    </aside>
+
+    <main class="main-content">
+        <section id="catalogo" class="product-section">
+            <div class="sort-filter-container">
+                <div class="sort-filter">
+                    <span>Ordenar por:</span>
+                    <select>
+                        <option>Precio (menor a mayor)</option>
+                        <option>Precio (mayor a menor)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="imagenes/foto1.jpg" alt="Auto Eléctrico Modelo 1">
+                    <h3>Modelo 1</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto2.jpg" alt="Auto Eléctrico Modelo 2">
+                    <h3>Modelo 2</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto3.jpg" alt="Auto Eléctrico Modelo 3">
+                    <h3>Modelo 3</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto4.jpg" alt="Auto Eléctrico Modelo 4">
+                    <h3>Modelo 4</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto5.jpg" alt="Auto Eléctrico Modelo 5">
+                    <h3>Modelo 5</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto6.jpg" alt="Auto Eléctrico Modelo 6">
+                    <h3>Modelo 6</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto7.jpg" alt="Auto Eléctrico Modelo 7">
+                    <h3>Modelo 7</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto8.jpg" alt="Auto Eléctrico Modelo 8">
+                    <h3>Modelo 8</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto9.jpg" alt="Auto Eléctrico Modelo 9">
+                    <h3>Modelo 9</h3>
+                    <button>Ver detalles</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/foto10.jpg" alt="Auto Eléctrico Modelo 10">
+                    <h3>Modelo 10</h3>
+                    <button>Ver detalles</button>
+                </div>
+            </div>
+            <div class="pagination-mobile">
+                <span>Página 1</span>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <p><span class="mdi mdi-email"></span> info@fullgass.cl</p>
+                <p><span class="mdi mdi-map-marker"></span> Av. San roman 123, Copiapo, Chile</p>
+            </div>
+            
+            <form class="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><span class="mdi mdi-facebook"></span></a>
+            <a href="#"><span class="mdi mdi-twitter"></span></a>
+            <a href="#"><span class="mdi mdi-instagram"></span></a>
+        </div>
+        <p>&copy; 2025 - Full Gass. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
